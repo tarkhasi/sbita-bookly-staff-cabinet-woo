@@ -2,7 +2,7 @@
 /*
 Plugin Name: SbiTa Bookly Staff Cabinet to Woo (Add-on)
 Description: SbiTa Bookly Staff Cabinet to Woo add-on is a plugin for add Bookly Staff Cabinet (add-on) to Woocommerce Account page for staff members.
-Version: 1.0
+Version: 1.0.0
 Author: Webhead
 Text Domain: sbita-bscw
 Domain Path: /languages
@@ -17,6 +17,7 @@ if (!class_exists('SbitaBooklyCabinetWoo')) {
     include plugin_dir_path(__FILE__) . '/incloude/functions.php';
     include plugin_dir_path(__FILE__) . '/incloude/bookly-staff-cabinet-woo-account.php';
     include plugin_dir_path(__FILE__) . '/incloude/bookly-staff-cabinet-woo-settings.php';
+    include plugin_dir_path(__FILE__) . '/incloude/bookly-staff-cabinet-woo-admin.php';
 
 
     class SbitaBooklyCabinetWoo
@@ -51,6 +52,7 @@ if (!class_exists('SbitaBooklyCabinetWoo')) {
         public static function admin_init()
         {
             BooklyStaffCabinetWooSettings::admin_init();
+            BooklyStaffCabinetWooAdmin::admin_init();
         }
 
 

@@ -103,7 +103,7 @@ if (!class_exists('BooklyStaffCabinetWooAccount')) {
          */
         public static function endpoints_title($title, $id)
         {
-            if (!is_account_page()) return $title;
+            if (!function_exists('is_account_page') || !is_account_page()) return $title;
             if (!in_the_loop()) return $title;
 
             global $wp_query;
