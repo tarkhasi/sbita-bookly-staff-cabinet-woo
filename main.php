@@ -1,7 +1,7 @@
 <?php if (!defined('ABSPATH')) exit; // Exit if accessed directly
 /*
-Plugin Name: SbiTa Bookly Staff Cabinet to Woo (Add-on)
-Description: SbiTa Bookly Staff Cabinet to Woo add-on is a plugin for add Bookly Staff Cabinet (add-on) to Woocommerce Account page for staff members.
+Plugin Name: SbiTa Bookly Staff Cabinet and Woo (Add-on)
+Description: SbiTa Bookly Staff Cabinet and Woo add-on is a plugin for add Bookly Staff Cabinet (add-on) to Woocommerce Account page for staff members.
 Version: 1.0.0
 Author: Webhead
 Text Domain: sbita-bscw
@@ -75,7 +75,7 @@ if (!class_exists('SbitaBooklyCabinetWoo')) {
             add_action('admin_notices', function () {
                 echo "
                 <div class='notice notice-error is-dismissible'>
-                        <p>SbiTa Bookly Staff Cabinet to Woo: Need `SbiTa`  and 
+                        <p>SbiTa Bookly Staff Cabinet and Woo: Need `SbiTa`  and 
                         <a href='https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/'>Bookly</a>
                         plugins!</p>
                 </div>";

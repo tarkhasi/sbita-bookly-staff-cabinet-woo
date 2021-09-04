@@ -46,7 +46,7 @@ if (!class_exists('BooklyStaffCabinetWooSettings')) {
 
             // services shortcode
             $whc_option = new SbitaCoreOptionModel('bscw_services_shortcode');
-            $whc_option->setDefaultValue('[bookly-staff-services read-only="price"]');
+            $whc_option->setDefaultValue('[bookly-staff-services]');
             $whc_option->setDescription(null);
             $whc_option->setInputType('text');
             $whc_option->setLabel(__('Staff Services Shortcode', 'sbita-bscw'));
