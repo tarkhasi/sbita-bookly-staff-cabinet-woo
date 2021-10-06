@@ -1,9 +1,11 @@
 <?php if (!defined('ABSPATH')) exit; // Exit if accessed directly
 /*
 Plugin Name: SbiTa Bookly Staff Page (Add-on)
+Plugin URI: https://wordpress.org/plugins/sbita-bookly-staff-page-add-on/
 Description: SbiTa Bookly Staff Page add-on is a plugin for add Bookly Staff Cabinet (add-on) features in Woocommerce Account page for users that are Staff members.
 Version: 1.0.0
-Author: Webhead
+Author: WpKok
+Author URI: https://wpkok.com/
 Text Domain: sbita-bscw
 Domain Path: /languages
 */

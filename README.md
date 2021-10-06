@@ -6,7 +6,7 @@ SbiTa Bookly Staff Page add-on is a plugin for add Bookly Staff Cabinet (add-on)
 
 Important: This plugin is an add-on that requires the Bookly PRO and Bookly Staff Cabinet (add-on) installed and activated.<br/>
 <a href="https://wordpress.org/plugins/sbita/">+ SbiTa Core</a><br/>
-<a href="https://codecanyon.net/item/bookly-booking-plugin-responsive-appointment-booking-and-scheduling/7226091">+ Bookly PRO page at Codecanyon.</a><br/>
+<a href='https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/'>+ Bookly</a><br/> 
 <a href="https://codecanyon.net/item/bookly-staff-cabinet-addon/20005540">+ Bookly Staff Cabinet (Add-on) page at Codecanyon.</a>
 <br/>
 
