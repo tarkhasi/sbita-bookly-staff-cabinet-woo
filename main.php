@@ -1,7 +1,7 @@
 <?php if (!defined('ABSPATH')) exit; // Exit if accessed directly
 /*
-Plugin Name: SbiTa Bookly Staff Cabinet and Woo (Add-on)
-Description: SbiTa Bookly Staff Cabinet and Woo add-on is a plugin for add Bookly Staff Cabinet (add-on) to Woocommerce Account page for staff members.
+Plugin Name: SbiTa Bookly Staff Page (Add-on)
+Description: SbiTa Bookly Staff Page add-on is a plugin for add Bookly Staff Cabinet (add-on) features in Woocommerce Account page for users that are Staff members.
 Version: 1.0.0
 Author: Webhead
 Text Domain: sbita-bscw
@@ -28,6 +28,7 @@ if (!class_exists('SbitaBooklyCabinetWoo')) {
         public static function main()
         {
             $result = is_plugin_active('sbita/main.php') && is_plugin_active('bookly-addon-staff-cabinet/main.php');
+            $result = $result && is_plugin_active('bookly-responsive-appointment-booking-tool/main.php');
             if (!$result) return self::need_core_message();
 
             add_action('plugins_loaded', array(__CLASS__, 'textdomain'));
@@ -75,8 +76,9 @@ if (!class_exists('SbitaBooklyCabinetWoo')) {
             add_action('admin_notices', function () {
                 echo "
                 <div class='notice notice-error is-dismissible'>
-                        <p>SbiTa Bookly Staff Cabinet and Woo: Need `SbiTa`  and 
-                        <a href='https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/'>Bookly</a>
+                        <p>Bookly Staff Page: Need <a href='https://wordpress.org/plugins/sbita/'>Sbita Core</a>, 
+                        <a href='https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/'>Bookly</a>  and
+                        <a href='https://codecanyon.net/item/bookly-staff-cabinet-addon/20005540'>Bookly Staff Cabinet (Add-on)</a>
                         plugins!</p>
                 </div>";
             });
