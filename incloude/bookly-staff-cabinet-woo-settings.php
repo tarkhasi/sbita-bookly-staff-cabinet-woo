@@ -4,7 +4,7 @@
 if (!class_exists('BooklyStaffCabinetWooSettings')) {
     class BooklyStaffCabinetWooSettings
     {
-        public static $group_name = 'Bookly Staff Cabinet Woo';
+        public static $group_name = 'Bookly Staff Page';
 
         public static function main()
         {
