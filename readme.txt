@@ -1,4 +1,4 @@
-=== SbiTa Bookly Staff Page  ===
+=== Bookly Staff Page  ===
 Contributors: sbita
 Tags: bookly, staff cabinet, page, woo, woocommerce, account, staff, add-on
 Requires at least: 4.7
@@ -12,11 +12,7 @@ Add Bookly Staff Cabinet (add-on) features in Woocommerce Account page for users
 
 == Description ==
 
-Important: This plugin is an add-on that requires the Bookly PRO and Bookly Staff Cabinet (add-on) installed and activated.<br/>
-<a href="https://wordpress.org/plugins/sbita/">+ SbiTa Core</a><br/>
-<a href='https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/'>+ Bookly</a><br/>
-<a href="https://codecanyon.net/item/bookly-staff-cabinet-addon/20005540">+ Bookly Staff Cabinet (Add-on) page at Codecanyon.</a>
-<br/>
+Important: This plugin is an add-on that requires installed and activated: <a href="https://codecanyon.net/item/bookly-staff-cabinet-addon/20005540">Bookly Staff Cabinet (Add-on)</a>
 
 SbiTa Bookly Staff Page (add-on) is a plugin for add Bookly Staff Cabinet (add-on) features in Woocommerce Account page for users that are Staff members.
 
@@ -40,6 +36,7 @@ Join the elite web professionals who enjoy [WpKok Bookly add-ons](https://wpkok.
 == Screenshots ==
 
 1. Woocommerce Account
+2. Customize Settings
 
 == Changelog ==
 
